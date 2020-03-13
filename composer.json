@@ -1,0 +1,27 @@
+{
+	"name": "app/react-php",
+	"description": "Application for react-php",
+	"type": "application",
+	"keywords": [
+		"ai"
+	],
+	"homepage": "https://github.com/magnussmed",
+	"authors": [
+		{
+			"name": "Magnus Smed",
+			"email": "magnussmed1@gmail.com",
+			"homepage": "http://magnussmed.dk"
+		}
+	],
+	"require": {
+		"php": "^7.1",
+		"php-http/curl-client": "^1.7",
+		"guzzlehttp/psr7": "^1.4",
+		"php-http/guzzle6-adapter": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+				"ReactPhp\\":"src/"
+			}
+	}
+}

@@ -1,0 +1,28 @@
+version: '3.1'
+services:
+  db:
+    image: 'mysql:5.7'
+    command: --max_allowed_packet=32505856
+    environment:
+      - MYSQL_DATABASE=react_php_com_db
+      - MYSQL_ROOT_PASSWORD=toor
+    ports:
+      - '3306:3306'
+  web:
+    build:
+      context: .
+      dockerfile: ./docker/dev/Dockerfile
+    links:
+      - db
+    depends_on:
+      - db
+    ports:
+      - '9090:8080'
+    environment:
+      - PHP_ENV=development
+      - DB_HOST=db
+      - DB_USER=root
+      - DB_PASS=toor
+    entrypoint: ./docker-entrypoint.sh
+    volumes:
+      - .:/var/www/html
