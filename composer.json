@@ -5,7 +5,7 @@
 	"keywords": [
 		"ai"
 	],
-	"homepage": "https://github.com/magnussmed",
+	"homepage": "https://github.com/magnussmed/react-php",
 	"authors": [
 		{
 			"name": "Magnus Smed",
@@ -14,10 +14,7 @@
 		}
 	],
 	"require": {
-		"php": "^7.1",
-		"php-http/curl-client": "^1.7",
-		"guzzlehttp/psr7": "^1.4",
-		"php-http/guzzle6-adapter": "^1.1"
+		"php": "^7.1"
 	},
 	"autoload": {
 		"psr-4": {
