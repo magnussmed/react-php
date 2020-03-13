@@ -1,0 +1,130 @@
+.white {
+	background-color: var(--bg-color-1);
+}
+
+.grey {
+	background-color: var(--bg-color-2);
+}
+
+.light-grey {
+	background-color: var(--bg-color-3);
+}
+
+.dark-grey {
+	background-color: var(--bg-color-6);
+}
+
+.dark-blue {
+	background-color: var(--bg-color-4);
+}
+
+.darker-blue {
+	background-color: var(--bg-color-5);
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.black--overlay {
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 5;
+	-moz-opacity: 0.1;
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+	cursor: pointer;
+}
+
+.blurry--overlay {
+	top: 0;
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 5;
+	overflow: hidden;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.9);
+	display: none;
+
+	& .container {
+		width: 100%;
+		max-width: 100%;
+		margin: var(--spacing-3) auto;
+		padding: var(--spacing-1);
+
+		@media (--extra-small-up) {
+			max-width: calc(500px + var(--spacing-3));
+			margin: var(--spacing-4) auto;
+			padding: var(--spacing-3);
+		}
+
+		@media (--small-up) {
+			max-width: calc(500px + var(--spacing-3));
+			margin: var(--spacing-4) auto;
+			padding: var(--spacing-3);
+		}
+
+		@media (--medium-up) {
+			margin: var(--spacing-5) auto;
+			max-width: calc(500px + var(--spacing-4));
+			padding: var(--spacing-4);
+		}
+
+		@media (--large-up) {
+			margin: var(--spacing-7) auto;
+			max-width: calc(500px + var(--spacing-4));
+		}
+
+		& .headline {
+			font-family: var(--third-font);
+			color: var(--color-4);
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-size: var(--size-8);
+			margin-bottom: var(--spacing-1);
+			text-align: center;
+		}
+
+		& .description {
+			font-family: var(--primary-font);
+			color: var(--color-8);
+			font-size: var(--size-6);
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-weight: 400;
+		}
+	}
+}
+
+.blurry--overlay.black--windowed {
+	background: hsla(0, 0%, 0%, 0.3);
+
+	& .container {
+		background-color: var(--bg-color-1);
+		border-radius: 2px;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	}
+}
+
+@keyframes wave {
+	0%,
+	60%,
+	100% {
+		transform: initial;
+	}
+
+	30% {
+		transform: translateY(-15px);
+	}
+}

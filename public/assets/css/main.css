@@ -1,0 +1,23 @@
+/*
+* Main CSS file for NoteHlp platform
+*
+* This file is only for importing other stylesheets. Do NOT insert any css here!
+* There may be some specific stylesheets that aren't imported because they're used for unique pages
+*/
+
+/*
+* Helpers css files
+*/
+@import "helpers/variables.css";
+@import "helpers/media-queries.css";
+
+/*
+* Import base css files
+*/
+@import "base/font.css";
+@import "base/base.css";
+
+/*
+* Import components css files
+*/
+@import "components/test.css";

@@ -1,0 +1,62 @@
+:root {
+	/* Colors */
+	--color-1: #1b96f5;
+	--color-2: #fff;
+	--color-3: #435465;
+	--color-4: #2c3742;
+	--color-5: #636777;
+	--color-6: #3b79f0;
+	--color-7: #a3a5aa;
+	--color-8: #6e748b;
+	--warning-color-1: #d64747;
+	--success-color-1: #4cc57e;
+
+	/* Background colors */
+	--bg-color-1: #fff;
+	--bg-color-2: #f6f6f4;
+	--bg-color-3: #f8f9fa;
+	--bg-color-4: #3b79f0;
+	--bg-color-5: #1b96f5;
+	--bg-color-6: #435465;
+	--bg-color-7: #199bff;
+	--warning-bg-color-1: #fb9696;
+	--success-bg-color-1: #96fbc0;
+
+	/* Spacing */
+	--spacing-1: 15px;
+	--spacing-2: 25px;
+	--spacing-3: 50px;
+	--spacing-4: 75px;
+	--spacing-5: 100px;
+	--spacing-6: 125px;
+	--spacing-7: 150px;
+	--spacing-8: 175px;
+	--spacing-9: 200px;
+
+	/* Fonts */
+	--primary-font: 'Averta', 'Roboto', sans-serif;
+	--secondary-font: 'Rubik', 'Roboto', sans-serif;
+	--third-font: 'Roboto Slab';
+	--fourth-font: 'Noto Serif', serif;
+	--fifth-font: 'AvertaBold', 'Roboto', sans-serif;
+
+	/* Font sizes - http://www.standardista.com/px-to-rem-conversion-if-root-font-size-is-16px/ */
+	font-size: 16px;
+
+	--size-1: 0.625rem;
+	--size-2: 0.6875rem;
+	--size-3: 0.75rem;
+	--size-4: 0.8125rem;
+	--size-5: 0.875rem;
+	--size-6: 0.9375rem;
+	--size-7: 1rem;
+	--size-8: 1.125rem;
+	--size-9: 1.25rem;
+	--size-10: 1.5rem;
+	--size-11: 1.75rem;
+	--size-12: 2rem;
+	--size-13: 2.25rem;
+	--size-14: 2.5rem;
+	--size-15: 2.75rem;
+	--size-16: 3rem;
+}

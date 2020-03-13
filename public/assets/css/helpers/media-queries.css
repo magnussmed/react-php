@@ -1,0 +1,11 @@
+/* Custom media queries */
+@custom-media --extra-large-up (min-width: 1420px);
+@custom-media --large-up (min-width: 1200px);
+@custom-media --medium-up (min-width: 992px);
+@custom-media --small-up (min-width: 768px);
+@custom-media --extra-small-up (min-width: 480px);
+@custom-media --tiny-up (min-width: 367px);
+@custom-media --large-down (max-width: 1200px);
+@custom-media --medium-down (max-width: 992px);
+@custom-media --small-down (max-width: 768px);
+@custom-media --extra-small-down (max-width: 480px);
