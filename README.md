@@ -1,8 +1,6 @@
 # ReactPHP application
 Using ReactJS as the frontend and PHP for backend operations.
 
-LOCALHOST: http://localhost:9090
-
 ## Installation and usage
 
 This project is written in PHP 7.1 so you gotta get that on your machine. Additionally php `composer` is being used for php dependency management, so you should download that (install it locally in the project) by :
@@ -24,7 +22,7 @@ npm install
 npm run start
 ```
 
-You also need Docker on your machine, since we're creating a Docker container with a:
+You also need Docker on your machine, since we're creating a Docker container:<br>
 MacOS: https://hub.docker.com/editions/community/docker-ce-desktop-mac/ <br>
 Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 
@@ -32,6 +30,7 @@ Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 ```bash
 make start
 ```
+Finally, go to http://localhost:9090 and see the application alive.<br><br>
 
 You can stop the Docker container again with:
 ```bash

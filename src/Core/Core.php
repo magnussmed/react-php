@@ -1,19 +1,19 @@
 <?php
 /**
-* ReactPhp/Core
+* ReactPHP/Core
 *
-* @package    ReactPhp
-* @copyright  2020 ReactPhp
+* @package    ReactPHP
+* @copyright  2020 ReactPHP
 * @author     Magnus Smed
 * @version    1.0.0
 */
 
-namespace ReactPhp\Core;
+namespace ReactPHP\Core;
 
 /**
 * Class Core
 *
-* @package ReactPhp
+* @package ReactPHP
 */
 class Core {
 
