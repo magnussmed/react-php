@@ -15,7 +15,7 @@ namespace ReactPHP\Core;
 *
 * @package ReactPHP
 */
-class Core {
+class Core extends Connection {
 
 	/**
 	* Make a test function
@@ -24,6 +24,8 @@ class Core {
 	* @return
 	*/
 	public function call_me( $params = false ) {
+
+		$con = $this->open_connection( );
 
 		# Echo the response to ReactJS
 		echo json_encode( array( 'response' => 'Works.', 'type' => 'xhr' ) );
