@@ -27,7 +27,7 @@ Remember to build the files when you're done working!
 npm run build
 ```
 
-You also need Docker on your machine, since we're creating a Docker container:<br>
+Since we're creating a Docker container, you gotta get Docker on your machine:<br>
 MacOS: https://hub.docker.com/editions/community/docker-ce-desktop-mac/ <br>
 Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 
