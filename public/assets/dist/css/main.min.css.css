@@ -1,15 +1,1 @@
-/*
-* Main CSS
-*
-* This file is only for importing other stylesheets. Do NOT insert any css here!
-* There may be some specific stylesheets that aren't imported because they're used for unique pages
-*/
-
-/*
-* Import components css files
-*/
-
-.react-load {
-	width: 100%;
-}
-
+.react-load{width:100%}
