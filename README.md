@@ -22,6 +22,11 @@ npm install
 npm run start
 ```
 
+Remember to build the files when you're done working!
+```bash
+npm run build
+```
+
 You also need Docker on your machine, since we're creating a Docker container:<br>
 MacOS: https://hub.docker.com/editions/community/docker-ce-desktop-mac/ <br>
 Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
