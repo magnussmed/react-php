@@ -7,6 +7,7 @@ class Main extends Component {
 	exampleName = 'Joe';
 
 	example = ( ) => {
+		new Dynamic();
 		let element = (
 			<div>
 				<h2>Name: { this.exampleName }</h2>
