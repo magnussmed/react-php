@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import { NavLink, Switch, Route } from 'react-router-dom';
+import { dynamic } from "./Dynamic";
 
 const App = () => (
 	<div className='app'>
@@ -37,6 +38,7 @@ const Home = () => (
 
 const About = () => (
 	<div className='about'>
+		{ dynamic() }
 		<h1>About Me</h1>
 		<p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
 		<p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
